@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="../assets/logoRealEstateCare.svg">
+    <h1><HelloWorld msg="Hello world!"/></h1> 
   </div>
 </template>
 
@@ -16,3 +16,13 @@ export default {
   }
 }
 </script>
+
+<style>
+  .home{
+    background-color: #00AAA2;
+  }
+
+  h1{
+    color: white;
+  }
+</style>
