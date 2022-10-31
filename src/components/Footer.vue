@@ -1,18 +1,18 @@
 <template>
   <v-bottom-navigation>
     <v-btn>
-      <span>active task</span>
-      <v-icon>mdi-wrench</v-icon>
+      <span style="color: #FFF;">active task</span>
+      <v-icon style="color: #FFF;">mdi-wrench</v-icon>
     </v-btn>
 
     <v-btn>
-      <span>infromation</span>
-      <v-icon>mdi-information</v-icon>
+      <span style="color: #FFF;">infromation</span>
+      <v-icon style="color: #FFF;">mdi-information</v-icon>
     </v-btn>
 
     <v-btn @click="$router.back()">
-      <span>back</span>
-      <v-icon>mdi-skip-previous</v-icon>
+      <span style="color: #FFF;">back</span>
+      <v-icon style="color: #FFF;">mdi-skip-previous</v-icon>
     </v-btn>
 
   </v-bottom-navigation>
@@ -24,3 +24,9 @@ export default {
   name: 'Footer',
 }
 </script>
+
+<style>
+  .v-bottom-navigation__content{
+    background-color:#00AAA2 ;
+  }
+</style>

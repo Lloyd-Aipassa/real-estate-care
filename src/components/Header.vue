@@ -1,5 +1,5 @@
 <template>
-    <v-toolbar color="black" class="py-2">
+    <v-toolbar color="#1E292F" class="py-2">
     <v-img
         :src="require('@/assets/logoRealEstateCare.svg')"
         width="100"
